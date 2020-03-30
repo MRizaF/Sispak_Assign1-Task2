@@ -51,7 +51,7 @@ plt.show()
 ```
 
 
-![png](img/plot_0.png)
+![png](img/plot_1.png)
 
 
 ```python
