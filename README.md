@@ -59,6 +59,23 @@ plt.show()
 ```
 
 
-```python
+## Euler Angles
 
+A 3D Rotation that provides three rotations based on the XYZ axes of coordinate system.
 ```
+x-axis rotation matrix
+    [[  1     0     0  ]
+     [  0    cosθ -sinθ]
+     [  0    sinθ  cosθ]]
+     
+y-axis rotation matrix
+    [[cosθ    0    sinθ]
+     [  0     1     0  ]
+     [-sinθ   0    cosθ]]
+     
+z-axis rotation matrix
+    [[cosθ  -sinθ   0  ]
+     [sinθ   cosθ   0  ]
+     [  0     0     1  ]]
+```
+
