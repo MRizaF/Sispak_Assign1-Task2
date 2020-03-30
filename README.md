@@ -1,5 +1,8 @@
-# MRizaF
-MRizaF/Sispak_Assign1-Task2
+# Expert System
+## Assignment 1 - [Task 2: 3D Rotation]
+***
+### Mohammad Riza Farhandhy - 1313617038
+***
 
 
 
