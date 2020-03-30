@@ -37,7 +37,7 @@ plt.show()
 
 
 ```python
-# still dont understand how to plot 3d properly...
+# still dont understand how to plot 3d properly and how to manipulate the matrix......
 ```
 
 
