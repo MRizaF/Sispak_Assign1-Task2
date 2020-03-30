@@ -12,15 +12,33 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import axes3d
+from mpl_toolkits.mplot3d.art3d import Poly3DCollection, Line3DCollection
 from itertools import product, combinations
 
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 
-r = [-3, 3]
-for s, e in combinations(np.array(list(product(r, r, r))), 2):
-   if np.sum(np.abs(s-e)) == r[1]-r[0]:
-       ax.plot3D(*zip(s, e), color="b")
+# r = [-3, 3]
+# for s, e in combinations(np.array(list(product(r, r, r))), 2):
+#    if np.sum(np.abs(s-e)) == r[1]-r[0]:
+#        ax.plot3D(*zip(s, e), color="b")
+
+# m = [
+#     [-2, -2, 2],
+#     [-2, 2, 2],
+#     [2, 2, 4],
+#     [2, -2, 4],
+#     [-2, -2, 2],
+#     [-2, -2, -2],
+#     [-2, 2, -2],
+#     [-2, 2, 2]
+# ]
+
+x = [-2, -2, 2, 2, -2, -2, -2, -2]
+y = [-2, 2, 2, -2, -2, -2, 2, 2]
+z = [2, 2, 4, 4, 2, -2, -2, 2]
+
+ax.plot3D(x, y, z, color="b")
 
 ax.set_xlabel('X Label')
 ax.set_ylabel('Y Label')
